@@ -1,6 +1,10 @@
 /* Implemente uma ALU que execute as operações de soma (controle = 1) e
 subtração (controle = 0), considerando dois operandos com 8 bits cada. Crie um
-testbench para verificar o funcionamento do seu código */
+testbench para verificar o funcionamento do seu código 
+
+By Felipe Victor: @phvictorr
+
+*/
 
 module main(A, B, controle, s);
     input [7:0] A, B; // Entradas de 8 bits
